@@ -9,19 +9,21 @@ si la persona se lleva entre 2 y 5 camisas se le hace un descuento del 15%
 si la persona se lleva mas de 5 el descuento es de 20%
 El sistema debe solictar la cantidad de camisas y el precio de las camisas*/
 
-namespace Tarea2Progra2
+namespace TiendadeCamisas
 {
     internal class Program
     {
         static void Main(string[] args)
         {
+            Console.ForegroundColor = ConsoleColor.Blue;
+            Console.WriteLine("Bienvenido a Camisas Panchita, la tienda para usted");
             Console.ForegroundColor = ConsoleColor.Cyan;
-            Console.WriteLine("\n Digite la cantidad de camisas: ");
+            Console.WriteLine("\nDigite la cantidad de camisas: ");
             Console.ForegroundColor = ConsoleColor.White;
             int cantidadcamisas = int.Parse(Console.ReadLine());
 
             Console.ForegroundColor = ConsoleColor.Cyan;
-            Console.WriteLine("\n Digite el precio por unidad de las camisas: ");
+            Console.WriteLine("\nDigite el precio por unidad de las camisas: ");
             Console.ForegroundColor = ConsoleColor.White;
             float precioxcamisa = float.Parse(Console.ReadLine());
 
@@ -30,7 +32,7 @@ namespace Tarea2Progra2
                 float montofinal = precioxcamisa * cantidadcamisas;
 
                 Console.ForegroundColor = ConsoleColor.DarkCyan;
-                Console.WriteLine($" \n El monto a pagar por las camisas es de {montofinal}.");
+                Console.WriteLine($"\nEl monto a pagar por las camisas es de {montofinal}.");
             }
             else if (cantidadcamisas > 1 && cantidadcamisas <= 5)
             {
@@ -38,7 +40,7 @@ namespace Tarea2Progra2
                 float montofinal = precioxcamisa * cantidadcamisas;
 
                 Console.ForegroundColor = ConsoleColor.DarkCyan;
-                Console.WriteLine($" \n El monto a pagar por las camisas es de {montofinal} luego de aplicar un descuento del 15%.");
+                Console.WriteLine($"\nEl monto a pagar por las camisas es de {montofinal} luego de aplicar un descuento del 15%.");
                 
             }    
             else if (cantidadcamisas > 5)
@@ -47,7 +49,7 @@ namespace Tarea2Progra2
                 float montofinal = precioxcamisa * cantidadcamisas;
 
                 Console.ForegroundColor = ConsoleColor.DarkCyan;
-                Console.WriteLine($" \n El monto a pagar por las camisas es de {montofinal} luego de aplicar un descuento del 20%. ");
+                Console.WriteLine($"\nEl monto a pagar por las camisas es de {montofinal} luego de aplicar un descuento del 20%. ");
                 
             }
 
