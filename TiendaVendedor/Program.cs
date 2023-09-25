@@ -29,14 +29,14 @@ namespace TiendaVendedor
                 Console.ForegroundColor = ConsoleColor.White;
                 int PrecioxProducto = 20;
                 int PrecioaPagar = PrecioxProducto * CantidadProductos;
-                Console.WriteLine($"El precio a pagar por la cantidad de productos seleccionados es: {PrecioaPagar}.");
+                Console.WriteLine($"El precio a pagar por la cantidad de productos seleccionada es: {PrecioaPagar}.");
             }
             else if (CantidadProductos > 10)
             {
                 Console.ForegroundColor = ConsoleColor.White;
                 int PrecioxProducto = 15;
                 int PrecioaPagar = PrecioxProducto * CantidadProductos;
-                Console.WriteLine($"\nEl precio a pagar por la cantidad de productos seleccionados es: ${PrecioaPagar}.");
+                Console.WriteLine($"\nEl precio a pagar por la cantidad de productos seleccionada es{PrecioaPagar}.");
             }
 
 
