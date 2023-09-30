@@ -25,7 +25,7 @@ namespace TiendadeCamisas
             Console.ForegroundColor = ConsoleColor.Cyan;
             Console.WriteLine("\nDigite el precio por unidad de las camisas: ");
             Console.ForegroundColor = ConsoleColor.White;
-            float precioxcamisa = float.Parse(Console.ReadLine());
+            float precioxcamisa = float.Parse(Console.ReadLine()); //puedo usar un double
 
             if (cantidadcamisas == 1)
             {

@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TiendaVendedor", "TiendaVen
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PromediosProgramacion1", "PromediosProgramacion1\PromediosProgramacion1.csproj", "{9C3642F6-F0E0-4075-9AE9-8851A22B634C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TareaVersionProfe", "CamisasVersionProfe\TareaVersionProfe.csproj", "{D1701A1C-89C4-47FF-AB78-9E4F87DEB4BC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{9C3642F6-F0E0-4075-9AE9-8851A22B634C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9C3642F6-F0E0-4075-9AE9-8851A22B634C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9C3642F6-F0E0-4075-9AE9-8851A22B634C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1701A1C-89C4-47FF-AB78-9E4F87DEB4BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1701A1C-89C4-47FF-AB78-9E4F87DEB4BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1701A1C-89C4-47FF-AB78-9E4F87DEB4BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1701A1C-89C4-47FF-AB78-9E4F87DEB4BC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -81,20 +81,20 @@ namespace PromediosProgramacion1
 
             //Proceso
 
-            float PorcentajeQuices = (NotaQuiz1 + NotaQuiz2 + NotaQuiz3) * 25 / 300;
+            float PorcentajeQuizes = (NotaQuiz1 + NotaQuiz2 + NotaQuiz3) * 25 / 300;
 
             float PorcentajeTareas = (NotaTarea1 + NotaTarea2 + NotaTarea3) * 30 / 300;
 
             float PorcentajeExamenes = (NotaExamen1 + NotaExamen2 + NotaExamen3) * 45 / 300;
 
-            float PromedioFinal = PorcentajeExamenes + PorcentajeQuices + PorcentajeTareas;
+            float PromedioFinal = PorcentajeExamenes + PorcentajeQuizes + PorcentajeTareas;
 
             //Salida de datos
 
             Console.ForegroundColor = ConsoleColor.DarkBlue;
             Console.WriteLine($" \nCarnet del estudiante: {CarnetEstudiante}.");
             Console.WriteLine($" \nNombre del estudiante: {NombreEstudiante}.");
-            Console.WriteLine($" \nPorcentaje de quizes obtenido: {PorcentajeQuices}.");
+            Console.WriteLine($" \nPorcentaje de quizes obtenido: {PorcentajeQuizes}.");
             Console.WriteLine($" \nPorcentaje de tareas obtenido: {PorcentajeTareas}.");
             Console.WriteLine($" \nPorcentaje de exámenes obtenido: {PorcentajeExamenes}."); 
             Console.WriteLine($" \nEl promedio final del estudiante es: {PromedioFinal}.");
