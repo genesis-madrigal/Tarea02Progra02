@@ -18,7 +18,7 @@ namespace TiendaVendedor
         static void Main(string[] args)
         {
             Console.ForegroundColor = ConsoleColor.Blue; 
-            Console.WriteLine("Bienvenido a la Distrubuidora de Productos");
+            Console.WriteLine("Bienvenido a la Distribuidora de Productos");
 
             Console.ForegroundColor = ConsoleColor.Yellow;
             Console.WriteLine("\nDigite la cantidad de productos que desea adquirir: ");

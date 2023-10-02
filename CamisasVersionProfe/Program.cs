@@ -56,7 +56,7 @@ namespace TareaVersionProfe
             float precio = 0;
 
             Console.WriteLine("Digite la cantidad"); cantidad = int.Parse(Console.ReadLine());
-            Console.WriteLine("Digite lel precio"); precio = float.Parse(Console.ReadLine());
+            Console.WriteLine("Digite el precio"); precio = float.Parse(Console.ReadLine());
 
             if (cantidad == 1)
             {
@@ -186,6 +186,31 @@ namespace TareaVersionProfe
         static void Ejercicio3()
         {
             Console.WriteLine("Ejercicio 3 - Vendedor");
+
+            Console.WriteLine("Bienvenido a la Distribuidora de Productos");
+
+
+            float precio = 0;
+
+            Console.WriteLine("Digite la cantidad"); 
+            int cantidadProductos = int.Parse(Console.ReadLine());
+
+
+            if (cantidadProductos <= 10)
+            {
+                precio = 20;
+                Console.WriteLine($"El precio por producto es de $20. El precio total de los productos es de ${cantidadProductos * precio}");
+            }
+
+            if (cantidadProductos > 10)
+            {
+                precio = 15;
+                Console.WriteLine($"El precio por producto es de $15. El precio total de los productos es de ${cantidadProductos * precio}");
+            }
+
+
+            Console.ReadLine();
+
         }
 
      
